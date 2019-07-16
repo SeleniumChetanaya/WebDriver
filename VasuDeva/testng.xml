@@ -1,0 +1,10 @@
+
+<suite name="OHRM">
+  <test name="RegessionTest">
+    <classes>
+      <class name="com.vasu.testng.AddEmp"/>
+      <class name="com.vasu.testng.EmpList"/>
+     
+    </classes>
+  </test> 
+</suite>

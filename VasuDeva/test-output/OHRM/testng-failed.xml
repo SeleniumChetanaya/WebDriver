@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OHRM]">
+  <test name="RegessionTest(failed)">
+    <classes>
+      <class name="com.vasu.testng.EmpList">
+        <methods>
+          <include name="empList"/>
+        </methods>
+      </class> <!-- com.vasu.testng.EmpList -->
+      <class name="com.vasu.testng.AddEmp">
+        <methods>
+          <include name="appLaunch"/>
+          <include name="appLogin"/>
+          <include name="appLogout"/>
+          <include name="appClose"/>
+        </methods>
+      </class> <!-- com.vasu.testng.AddEmp -->
+    </classes>
+  </test> <!-- RegessionTest(failed) -->
+</suite> <!-- Failed suite [OHRM] -->
